@@ -139,3 +139,13 @@ Server Side Rendering
 ## 결론
 
 완벽한 렌더링 솔루션은 없다..! 상황에 따라, 웹어플리케이션에 따라 적절한 방법을 사용하면됨
+
+## Next.js for Hybrid Web App
+
+- 하나의 어플리케이션에서 각 페이지마다 다른 렌더링 방식을 사용할 수 있고, 하나의 페이지에서도 여러가지 렌더링 방식을 사용할 수 있음
+
+#### Hybrid
+
+- 혼합, 특정 **목적**을 달성하기 위해 **두개 이상(이중성)**의 기능이나 요소를 결합
+- 목적 -> 성능 좋은 강력한 Web App / 두개 이상 -> CSR, SSG, ISR, SSR
+- 예를 들면, Home(ISR), About(SSG), Profile(SSR/CSR), Contact(CSR)
